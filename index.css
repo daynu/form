@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'norse';
-    src: url('/home/dan/Downloads/Norse-Bold.otf');
+    src: url('./fonts/Norse-Bold.otf');
   }
 
 @font-face {
 font-family: 'Borel';
-src: url('/home/dan/Downloads/PTSans-Bold.ttf');
+src: url('./fonts/PTSans-Bold.ttf');
 }
 
 
