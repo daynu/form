@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="left-side">
+        <div id = "logo">
+            <img src="logo.png" alt="logo">
+            <p>SnAIL</p>
+        </div>
+        <img id = "background-image" src="image.jpg" alt="photo">
+    </div>
+    <div id = "right-side">
+        <div id = "text">
+            <p>This is a demo registration page. How about you demo try to use it. Sign up and get started.</p>
+            <p>I know you want to!</p>
+        </div>
+        <form action="index.html">
+        <fieldset>
+            <legend>Let's do this!</legend>
+            <div class="column">
+                <label>FIRST NAME</label>
+                <input type="text">
+                 <label>EMAIL</label>
+                <input type="email">
+                <label>PASSWORD</label>
+                <input type="text">
+            </div>
+            <div class="column">
+                <label>LAST NAME</label>
+                <input type="text">
+           
+                <label>PHONE NUMBER</label>
+                <input type="tel" pattern="[0-9]{9}">
+                <label>CONFIRM PASSWORD</label>
+                <input type="text">
+            </div>
+            
+        </fieldset>
+        <div id = "submit">
+                <button type="submit">Create account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+    </form>    
+       
+    </div>
+
+</body>
+</html>
